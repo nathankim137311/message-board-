@@ -1,0 +1,24 @@
+// rendering html elements from Express server 
+to render an HTML file into the server using Express.js, we use res.sendFile(). This reads and renders the
+data included in one's HTML files. 
+
+    syntax: res.sendFile(path [, options] [, fn])
+
+"__dirname" returns the exact path of your project's directory.
+
+    app.get("/", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+    });
+
+when routed to this page, this renders the file onto the routed page. 
+
+link: https://www.section.io/engineering-education/rendering-html-pages-as-a-http-server-response-using-node-js/
+
+// Express: Working with forms 
+
+
+
+
+
+
+link: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms
