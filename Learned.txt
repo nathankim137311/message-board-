@@ -14,11 +14,5 @@ when routed to this page, this renders the file onto the routed page.
 
 link: https://www.section.io/engineering-education/rendering-html-pages-as-a-http-server-response-using-node-js/
 
-// Express: Working with forms 
-
-
-
-
-
-
-link: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/forms
+// static files in Express
+Static files are images, CSS files, and JavaScript files. 
